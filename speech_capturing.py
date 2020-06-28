@@ -27,7 +27,25 @@ def trim(snd_data):
     "Trim the blank spots at the start and end"
     def _trim(snd_data):
         snd_started = False
-    "Add silence to the start and end of 'snd_data' of length 'seconds' (float)"
+        r = array('h')
+
+        for i in snd_data:
+            if not snd_started and abs(i)>THRESHOLD:
+                snd_started = True
+                r.append(i)
+            elif snd_started:
+                r.append(i)
+        return r
+    # Trim to the left
+    snd_data = _trim(snd_data)
+    
+    # Trim to the right 
+    snd_data.reverse()
+    snd_data = _trim(snd_data)
+    snd_data.reverse()
+    return snd_data
+
+def add_silence(snd_data,seconds):
     r = array('h', [0 for i in range(int(seconds*RATE))])
     r.extend(snd_data)
     r.extend([0 for i in range(int(seconds*RATE))])
@@ -43,6 +61,7 @@ def record():
     blank sound to make sure VLC et al can play
     it without getting chopped off.
     """
+   
     p = pyaudio.PyAudio()
     stream = p.open(format=FORMAT, channels=1, rate=RATE, input=True, output=True,frames_per_buffer=CHUNK_SIZE)
     num_silent = 0

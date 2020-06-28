@@ -1,0 +1,155 @@
+(lp0
+(lp1
+S'now please give a plain statement of what occurred'
+p2
+aS'eli harding asked as shunk started to follow'
+p3
+aS'they are big trees and require plenty of room'
+p4
+aS'and i hope youve got plenty of chain out captain young'
+p5
+aa(lp6
+S'the discovery seemed to have been made on the spur of the moment'
+p7
+aS'you can take a vacation on pay'
+p8
+aS'and after the bath a shave would not be bad'
+p9
+aS'thats where they cut off the scottish chiefs and killed all hands'
+p10
+aa(lp11
+S'they handled two men already both grubthieves'
+p12
+aS'now go ahead and tell me in a straightforward way what has happened'
+p13
+aS'you see we were teaching ourselves'
+p14
+aS'any average young fellow can teach himself in a week'
+p15
+aa(lp16
+S'unlike joshua he stood in no need of divine assistance'
+p17
+aS'i forgot how easily i had taught myself from the printed page'
+p18
+aS'and now behold the perversity of things'
+p19
+aS'to say the least captain cook was a rather thorough going empiricist'
+p20
+aa(lp21
+S'mr mcveigh told me about him'
+p22
+aS'yield yourself to the waters that are ripping and tearing at you'
+p23
+aS'man could not conquer them'
+p24
+aS'please do not think that i already know it all'
+p25
+aa(lp26
+S'lord fitzhugh is the key to the whole situation'
+p27
+aS'if i was out of the game it would be easily made'
+p28
+aS'macdougall my engineer believes it'
+p29
+aS'and theres no chivalry no quarter shown in this fight'
+p30
+aa(lp31
+S'now you understand'
+p32
+aS'it is growing every day every hour'
+p33
+aS'philip dropped back into his chair'
+p34
+aS'he made no reply as he waited for whittemore to continue'
+p35
+aa(lp36
+S'you have associated with some of these men'
+p37
+aS'his slim hands gripped the edges of the table'
+p38
+aS'now just what do you want to know'
+p39
+aS'stand off butcher and baker and all the rest'
+p40
+aa(lp41
+S'i want to know how all this is possible'
+p42
+aS'but ever his gaze returned to that crouched venus on the piano'
+p43
+aS'in such a tumbling of values was no time to sell'
+p44
+aS'theres not an iota of truth in it'
+p45
+aa(lp46
+S'would you be satisfied with that one hundredth part of me'
+p47
+aS'matthewson whos this bookkeeper rogers'
+p48
+aS'there was proper division of labor in the work they individually performed'
+p49
+aS'its that much junk'
+p50
+aa(lp51
+S'it was a curious coincidence'
+p52
+aS'close beside him gleamed the white fangs of the wolfdog'
+p53
+aS'in spite of their absurdity the words affected philip curiously'
+p54
+aS'he looked at the handkerchief more closely'
+p55
+aa(lp56
+S'he moved away as quietly as he had come'
+p57
+aS'the girl faced him her eyes shining with sudden fear'
+p58
+aS'gregson was asleep when he reentered the cabin'
+p59
+aS'the lace was of a delicate ivory color faintly tinted with yellow'
+p60
+aa(lp61
+S'her own betrayal of herself was like tonic to philip'
+p62
+aS'it seemed nearer to him since he had seen and talked with gregson'
+p63
+aS'have you ever earned a dollar by your own labour'
+p64
+aS'and each year something happened and i did not go'
+p65
+aa(lp66
+S'how in hell did he know it was you in the dark'
+p67
+aS'of course much grumbling went on and little outbursts were continually occurring'
+p68
+aS'knowing him i review the old scandinavian myths with clearer understanding'
+p69
+aS'the dirk mentioned by wolf larsen rested in its sheath on my hip'
+p70
+aa(lp71
+S'an altruistic act is an act performed for the welfare of others'
+p72
+aS'yes and no sir was the slow reply'
+p73
+aS'he gave no reason but his motive was obvious enough'
+p74
+aS'you have all the advantage'
+p75
+aa(lp76
+S'now just what do you want to know'
+p77
+aS'stand off butcher and baker and all the rest'
+p78
+aS'i want to know how all this is possible'
+p79
+aS'the temperature dropped to fifty below zero and remained there the whole trip'
+p80
+aa(lp81
+S'he loved to play chinese lottery'
+p82
+aS'the law of club and fang'
+p83
+aS'and as never before he was ready to obey'
+p84
+aS'matthewson whos this bookkeeper rogers'
+p85
+aa.
