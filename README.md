@@ -1,9 +1,4 @@
-### GSoC EVALUATION - 1 ###
-
-Expected Work 
-1. Speech Capturing Block
-2. Speech Enhancement Block
-3. Features Extraction 
+### ASR using DeepSpeech ###
 
 Completed Work
 1. Speech Capturing Block
@@ -11,6 +6,10 @@ Completed Work
 3. Transcriber which convert speech to text using APIs
 4. Features Extraction 
 5. Acoustic Model
+6. Language Model
+7. CTC Decoder
+8. Data Download Script
+
 
 File Name - speech_capturing.py
 
@@ -36,8 +35,12 @@ File Name - transcriber.py
 
 Data 
 
-1. Currently I am using VoxForge Dataset for building ASR models. Since it is small datasets. So If htere ia any error in building models I can rectify it fast. After I will use LibriSpeech , TED-LIUM datasets.
-2. Crrently I have downloaded data manually but my plan is to automate data download using web-scraping.
+1. Currently In this demo I am using VoxForge Dataset for building ASR models. Since it is small datasets. So If there is any error in building models I can rectify it fast. 
+
+File Name - download_data.py
+
+1. This script is for downloading data automaticlly. I am using web scraping to download the data.
+2. Run python2 download_data.py you will get the data. But you have to make minor changes in script like - first you have to mention in which folder you want the data and second link of the dataset which you want to download.
 
 File Name - generate_text.py
 
@@ -50,8 +53,21 @@ File Name - generate_features_and_training_data.py
 2. Then we are building Acoustic Model for training data . They are assembled into a batched format with the target character level annotations for subsequent training.
 3. Run python2 generate_features_and_training_data.py .
 
-Future Works 
-1. Complete ASR end-to-end model for LibriSpeech and TEDLIUM.
-2. Start making components for competed part. 
+File Name -train_ctc.py
+
+1. In this code first we take inputs from acoustic model which provides us output charecter probabilites and then we query language model for evaluating the transcription.
+2. In language model it will correct our grammatical errors , spelling  mistakes .
+3. The file "train_ctc.py" uses a Single layer bidirectional LSTM network to predict the transcriptions from the audio features. Every 10 epochs, an example batch is decoded and printed for comparision with the target.
+4. Run python2 train_ctc.py . It will print both original and decoded output. 
+5. For Demo we can use our previous set up for small dataset. For 7 min. dataset it will taking around 2 hour time for train and test the model . 
+
+Results
+
+1. It is providing around 73% accuracy . For increasing the accuracy I am looking to increase the level in decoding model.
+
+Remaining Work
+1. Train Data for live speeches and test it for live speeches.
+2. Creating Components for each part of ASR.
+3. Design a UI like thing for end to end system like - You have to click start button and you have to speak then it will automatically generate transcript. 
 
 
