@@ -24,7 +24,7 @@ File Name - speech_denoising.py
 2. This code is use to enhanced and denoised the live speeches.
 3. "file.wav" is a output of enhanced version of "demo.wav".
 4. For denoising I am adding Gaussian Noise to wav file then applying Butterworth lowpass filter .
-5. Load wav file which we want to enhance manually by changing in the code. Then run python speech_denoising.py . It will generate enhaned wace file .
+5. Load wav file which we want to enhance manually by changing in the code. Then run python speech_denoising.py . It will generate enhanced wave file .
 
 File Name - transcriber.py
 
